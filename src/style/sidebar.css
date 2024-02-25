@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+}
+
+a {
+    color      : gray;
+    font-size  : 17px;
+    font-weight: medium;
+}
+
+/* aside {
+    animation: 3s show ease;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+} */
