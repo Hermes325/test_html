@@ -12,16 +12,41 @@ a {
     font-weight: medium;
 }
 
-/* aside {
-    animation: 3s show ease;
+.show {
+    animation: show-line 0.5s linear forwards;
 }
 
-@keyframes show {
+
+@keyframes show-line {
     from {
-        opacity: 0;
+        width   : 13vw;
+        overflow: hidden;
     }
 
     to {
-        opacity: 1;
+        width: 5vw;
     }
-} */
+}
+
+.span-show {
+
+    animation: 1s span-show forwards;
+}
+
+.span-show-reverse {
+
+    animation: 1s span-show-reverse forwards;
+}
+
+
+@keyframes span-show {
+    from {
+        opacity   : 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity   : 1;
+        visibility: visible;
+    }
+}
